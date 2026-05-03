@@ -24,5 +24,12 @@ run docker with your own config.json
 docker run -it \
   -v $(pwd)/config.json:/app/config.json \
   mi-bot
+
+or via pull
+
+docker run -it \
+  -v $(pwd)/config.json:/app/config.json \
+  ghcr.io/tachirula/bot-code-avengers:latest
+
 ```
 > Keep your config.json private and never commit it to the repository
