@@ -8,11 +8,17 @@ its basically for my classes
 ( 1% finished, need to upgrade so much things omg im gonna die hereat )
 
 # also need this to work properly
-Docker
 
-and run this command 
+**Docker**
 
+---//STEPS AFTER INSTALL DOCKER\\---
+
+build docker
+```
+docker run -it mi-bot .
+```
+run docker with your own config.json
+```
 docker run -it \
   -v $(pwd)/config.json:/app/config.json \
   mi-bot
-
