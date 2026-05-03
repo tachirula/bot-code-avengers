@@ -1,0 +1,12 @@
+# Venv
+venv/
+.venv/
+env/
+
+# Credentials
+config.json
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
