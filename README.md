@@ -9,3 +9,10 @@ its basically for my classes
 
 # also need this to work properly
 Docker
+
+and run this command 
+
+docker run -it \
+  -v $(pwd)/config.json:/app/config.json \
+  mi-bot
+
