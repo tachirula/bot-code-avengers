@@ -95,8 +95,8 @@ def main():
     with open("config.json") as f:
         data = json.load(f)
     
-    usuario = data["user"] or input("Email: ") 
-    password = data["pass"] or input("Password: ")
+    usuario = data.get("user") or input("Email: ") 
+    password = data.get("pass") or input("Password: ")
     
     print("[OK] Config saved")
 
