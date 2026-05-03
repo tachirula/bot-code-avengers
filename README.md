@@ -6,15 +6,6 @@ but if youre interested, there are some instructions down below
 This project mainly about automating a website to get my school assignments done. Thou shouldst know
 its basically for my classes 
 ( 1% finished, need to upgrade so much things omg im gonna die hereat )
+
 # also need this to work properly
-from playwright.sync_api import sync_playwright
-import json
-import time
-import re
-import os
-from fuzzywuzzy import fuzz
-from colorama import init, Fore
-# about installer .exe
-i use pyinstaller --one file 
-idk if thats gonna work so yea 
-dont expect something cool or without bugs im prety lazy 
+Docker
