@@ -11,6 +11,7 @@ its basically for my classes
 
 # also need this to work properly
 
+**Stable Wi-Fi**
 **Docker**
 
 # STEPS AFTER INSTALL DOCKER
